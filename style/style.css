@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ .font-inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+ }
+
+.btn-frist {
+  padding: 12px 16px;
+  border-radius:4px;
+  font-weight:600;
+   background:#469165;
+  color:#FFFFFF;
+  cursor: pointer;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ padding: 16px 120px;
+}
+.navbar a {
+  margin-right:32px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+.main-btn{
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius:1000px;
+  width: 183px;
+  margin-top: 150px;
+  color: #469165;
+  background-color: #FFFFFF;
+   cursor: pointer;
+}
+.btn1{
+    font-size: 16px;
+    width: 136px;
+    font-weight: 500;
+    padding: 12px 16px;
+    border-radius:  4px;
+    color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 1);
+      
+}
+.btn{
+    font-size: 16px;
+    font-weight:600;
+    width: 189px;
+    padding: 12px 16px;
+    color: #FFFFFF;
+    background-color: #469165;
+
+
+}
+
+.hero-parent{
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+margin: auto;    
+}
+main{
+  background: url(/assets/hero-bg.png);
+    background-size: cover;
+    padding: 100px 100px 100px 100px;
+   
+}
+
+.hero-parent h1 {
+    font-size:82px;
+  font-weight:700;
+  color: #FFFFFF;
+  margin-top: 16px;
+}
+.heading-green{
+    color: #469165;
+}
+.hero-parent p{
+font-size: 18px;
+font-weight: 400;
+color: #FFFFFF;
+}
+.hero-actions{
+  margin-top: 45px;
+
+}
+.middle-title{
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+   
+}
+.middle-title h1{
+   font-size: 48px;
+   font-weight: 700;
+  
+}
+.middle-title p{
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+}
+   section{
+  justify-content: center;
+}
+.card-parent{
+  display: flex;
+  
+  gap: 20px;
+}
+.card{
+background-color:#FFFFFF;
+border-radius: 8px;
+ box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 25px;
+ width: 322px;
+ height: 250px;
+}
+.card h2{
+    font-size: 24px;
+     font-size: 24px;
+     color: #001931;
+     
+}
+.card p{
+  color: #627382;
+font-size: 16px;
+font-weight: 400;
+}
+.card img{ 
+  padding:7px 7px 7px 7px;
+  width: 39px;
+background-color: #F95555;
+border-radius: 50%;
+}
+.container{
+  display: flex;
+  margin: auto;
+  padding: 120px;
+}
+.main-container{
+  display: flex;
+  align-items: center;
+ flex-direction: column;
+ padding-left: 120px;
+gap: 40px;
+}
+.container img{
+border-radius: 12px;
+ width: 600px;
+ height: 600px;
+}
+.subcontainer span{
+   font-size: 14px;
+   font-weight: 600;
+  width: 700;
+    color: #469165;
+
+}
+.subcontainer h1{
+   font-size: 48px;
+ font-weight: 700;
+ height: 112px;
+ color: rgba(0, 25, 49, 1);
+ margin-bottom: 16px;
+}
+.subcontainer p{
+   font-size: 16px;
+    font-weight: 400;
+    color: rgba(98, 115, 130, 1);
+   
+
+}
+div li{
+  width: 382px;
+  font-size: 16px;
+  font-weight: 500;
+  gap: 20px;
+  list-style-image: url("/assets/CheckCircle.png");
+  
+}
+.ready {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin: 0 auto;
+ padding: 120px 120px 30px 120px;
+  
+}
+.frist-controler h1{
+  font-size: 48px;
+   font-weight: 700;
+   color: rgba(0, 25, 49, 1);
+   margin-bottom: 16px;
+}
+.frist-controler p{
+   font-size: 16px;
+  color: rgba(98, 115, 130, 1);
+   font-weight: 400;
+   margin-bottom: 26px;
+}
+.ready span{
+display: inline-block;
+  margin-bottom: 16px;
+}
+.frist-controler p{
+   font-size: 16px;
+    font-weight: 400;
+}
+.flex-item{
+display: flex;
+
+}
+.footer {
+  background:rgba(0, 25, 49, 1);
+  padding: 120px 120px 30px 120px;
+  color:#ffffff;
+
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+
+.footer-social {
+  text-align: right;
+}
+
+.footer-social p {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 14px;
+  justify-content: flex-end;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: 1px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 1);
+}
