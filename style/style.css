@@ -150,6 +150,7 @@ margin: 0 auto;
 background-color: #F95555;
 border-radius: 50%;
 }
+/* }
 .container{
   display: flex;
 justify-content: center;
@@ -189,6 +190,66 @@ border-radius: 12px;
   font-size: 16px;
   font-weight: 500;
   gap: 20px;
-  list-style-image: url("/assets/CheckCircle.png");
+  list-style-image: url(../assets/CheckCircle.png)
   
+} */
+.container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* image */
+.image-box img {
+  width: 600px;
+  height: auto;
+}
+
+/* text */
+.text-container {
+  max-width: 520px;
+}
+
+.sub-title {
+  font-size: 14px;
+  font-weight: 600;
+  color:#30B868;
+  text-transform: uppercase;
+}
+
+.text-container h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #001931;
+  margin: 16px 0;
+}
+
+.text-container p {
+  font-size: 16px;
+  color:#627382;
+  margin-bottom: 24px;
+}
+.features {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.features li::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background: url("../assets/CheckCircle.png") no-repeat center;
+  background-size: contain;
 }
