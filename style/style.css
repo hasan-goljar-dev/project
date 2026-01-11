@@ -70,7 +70,9 @@ margin: auto;
 main{
   background: url(/assets/hero-bg.png);
     background-size: cover;
-    padding: 100px 100px 100px 100px;
+    background-position: center;
+  padding-bottom: 120px;
+  
    
 }
 
