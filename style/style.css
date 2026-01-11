@@ -68,7 +68,7 @@
 margin: auto;    
 }
 main{
-  background: url(/assets/hero-bg.png);
+  background: url(../assets/hero-bg.png);
     background-size: cover;
     background-position: center;
   padding-bottom: 120px;
